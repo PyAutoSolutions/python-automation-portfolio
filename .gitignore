@@ -1,0 +1,12 @@
+﻿# Ignorar tokens y secretos
+*token*
+*key*
+*secret*
+.env
+config.json
+credentials.json
+# Ignorar archivos basura
+__pycache__/
+*.pyc
+venv/
+.vscode/
