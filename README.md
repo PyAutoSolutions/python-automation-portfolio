@@ -1,24 +1,28 @@
-﻿# PyAutoSolutions | Enterprise Automation Suite 🚀
+﻿# The Omni-Analyst Pro | SaaS Market Intelligence Platform 🚀
+**Developed by PyAutoSolutions**
 
-Professional-grade backend ecosystem for business scalability. This suite integrates advanced data processing, asynchronous task management, and AI-driven interfaces.
+A comprehensive, production-ready SaaS ecosystem designed for market intelligence, competitive analysis, and automated strategic decision-making powered by AI.
 
-## 📂 Featured Modules:
+## 🏗️ Architectural Overview:
 
-### 1. The-API-Architect
-Advanced communication layer for intelligent automation. Designed to bridge the gap between AI models (Groq LLM) and user interfaces like Telegram.
+### 🌐 [The-API-Architect](./PyAutoSolutions/The-API-Architect)
+The communication layer. A secure RESTful API built with **Flask & JWT** authentication. Handles user management, dashboard interactions, and serves as the gateway to the analytical engine.
 
-### 2. The-Core-Engine
-The heart of the system. A high-performance asynchronous unit built to manage complex workflows and microservices with maximum efficiency.
+### ⚙️ [The-Core-Engine](./PyAutoSolutions/The-Core-Engine)
+The brain of the system. Integrates:
+- **Advanced Web Scraping:** Headless Playwright with proxy rotation.
+- **AI Module:** Predictive modeling using **Random Forest & XGBoost**.
+- **Opportunity Detection:** Algorithmic signals (BUY/SELL/HOLD) based on volatility and forecasting.
 
-### 3. The-Data-Optimizer
-A powerful ETL (Extract, Transform, Load) engine. Specializing in high-speed data cleaning and transformation using Pandas and NumPy.
+### 📊 [The-Data-Optimizer](./PyAutoSolutions/The-Data-Optimizer)
+The persistence and performance layer. Manages **PostgreSQL** orm via SQLAlchemy, multi-format report generation (Excel/PDF/CSV), and high-speed caching.
 
-## 🛠️ Tech Stack:
-- **Language:** Python 3.10+
-- **Key Tech:** Asyncio, Pandas, Groq API, PostgreSQL
-- **Architecture:** Asynchronous Microservices
+## 🛠️ Technical Stack
+- **Languages:** Python 3.10+
+- **Data & AI:** Pandas, NumPy, Scikit-Learn, Joblib
+- **Web & API:** Flask, JWT, SQLAlchemy, Playwright
+- **Automation:** APScheduler, Telegram Bot API
 
-## 📞 Contact & Business Inquiries (Asynchronous Only):
-To maintain deep-work productivity, I prioritize asynchronous communication.
+## 📞 Contact for Inquiries (Asynchronous Only)
 - **Email:** pyautosolutions@gmail.com
 - **Location:** Mexico City, Mexico

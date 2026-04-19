@@ -1,12 +1,12 @@
-﻿# Ignorar tokens y secretos
-*token*
-*key*
-*secret*
-.env
-config.json
-credentials.json
-# Ignorar archivos basura
+﻿.env
+instance/
+*.pkl
+*.log
 __pycache__/
-*.pyc
 venv/
 .vscode/
+# Secretos y Tokens
+token.txt
+config.json
+secrets.py
+credentials.json
